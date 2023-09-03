@@ -9,14 +9,15 @@ class FeaturedListViewItem extends StatelessWidget {
     return AspectRatio(
       aspectRatio: 2.7 / 4,
       child: Container(
-          decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
-        color: Colors.red,
-        image: const DecorationImage(
-          image: AssetImage(AssetsData.testImage),
-          fit: BoxFit.fill,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(16),
+          color: Colors.red,
+          image: const DecorationImage(
+            image: AssetImage(AssetsData.testImage),
+            fit: BoxFit.fill,
+          ),
         ),
-      )),
+      ),
     );
   }
 }
