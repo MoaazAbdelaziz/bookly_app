@@ -14,7 +14,10 @@ class BookDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.2),
-          child: const CustomBookImage(),
+          child: const CustomBookImage(
+            imagePath:
+                'https://edit.org/images/cat/book-covers-big-2019101610.jpg',
+          ),
         ),
         const SizedBox(height: 40),
         Text(
